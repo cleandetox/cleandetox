@@ -1,7 +1,27 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  position: relative;
+  background:
+    linear-gradient(to left, #fff, transparent) right/5% 32px no-repeat,
+    linear-gradient(to right, #fff, transparent) left/5% 32px no-repeat,
+    url(./images/photo_2.jpg) no-repeat;
+  background-size: cover;
 }
+
+/* .back-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0.15;
+}
+.back-img img {
+  height: 100%;
+} */
 
 .container {
   max-width: 900px;
@@ -30,8 +50,8 @@ body {
 /* TITLE */
 #title {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 #title p {
@@ -72,7 +92,7 @@ body {
 /* CONTACTS */
 #contacts {
   margin-top: 130px;
-  margin-bottom: 130px;
+  padding-bottom: 130px;
 }
 .contacts {
   display: flex;
@@ -114,4 +134,11 @@ body {
 }
 .contact a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 300px) {
+  #title p {
+    letter-spacing: 8px;
+    font-size: 16px;
+  }
 }
