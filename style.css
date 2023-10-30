@@ -1,0 +1,117 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sideoffset {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+/* TITLE */
+#title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#title p {
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin: 0;
+  font-size: 18px;
+}
+
+#title h1 {
+  margin: 0;
+}
+
+/* FEATURES */
+#features {
+  margin-top: 130px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.feature {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.feature img {
+  width: 20px;
+  height: 20px;
+  margin-right: 9px;
+}
+.feature p {
+  margin: 0;
+}
+
+/* CONTACTS */
+#contacts {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
+  gap: 40px;
+}
+.contacts .left img {
+  max-width: 150px;
+}
+.contacts .right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 11px;
+  min-width: 200px;
+}
+.contacts .right h2{
+  margin: 10px 0 0;
+}
+.contacts .right h3{
+  margin: 0 0 5px;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+}
+.contact {
+  display: flex;
+}
+.contact img {
+  width: 20px;
+  height: 20px;
+  margin-right: 13px;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
